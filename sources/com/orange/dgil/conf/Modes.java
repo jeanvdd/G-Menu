@@ -1,0 +1,17 @@
+package com.orange.dgil.conf;
+
+public class Modes {
+
+    public enum Mode {
+        POINTING,
+        DYNAMIC_POINTING,
+        EXTENDED_SYMBOLIC,
+        SYMBOLIC_MULTISTROKE,
+        POINTING_ANDROID_OMNIDIRECTIONAL,
+        POINTING_ANDROID_HORIZONTAL,
+        POINTING_ANDROID_VERTICAL,
+        DYNAMIC_ANDROID_OMNIDIRECTIONAL,
+        DYNAMIC_ANDROID_HORIZONTAL,
+        DYNAMIC_ANDROID_VERTICAL
+    }
+}

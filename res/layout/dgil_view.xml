@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.orange.dgil.DgilView android:id="@id/dgil_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <SearchView android:textSize="18.0sp" android:id="@id/msh_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:queryHint="Enter some letters ..." />
+            <ListView android:id="@id/my_list_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.orange.dgil.DgilView>
+</LinearLayout>
